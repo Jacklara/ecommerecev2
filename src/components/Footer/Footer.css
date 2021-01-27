@@ -1,0 +1,29 @@
+.footer {
+    background-color: #0b0c10;
+    color: white;
+    padding: 5%;
+}
+
+.copyright-text {
+    margin: auto;
+}
+
+.social-icons {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fa {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 20%;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+  }
+
+@media screen and (max-width: 1000px) {
+    .social-icons {margin: 7%;}
+}

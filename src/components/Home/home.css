@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img {
+    float: left;
+    height: 1%;
+    width: 20%;
+}
+
+.logohome{
+    height: 50%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+       left: -100%; 
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+.maininfo {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1300px;
+}
+
+.maininfo > div {
+    padding: 20px;
+}
+
+.homepic {
+    width: 100%;
+    height: auto;
+    /* border: px solid; */
+    padding: 10px;
+    box-shadow: 5px 10px 8px #969292;
+}
+
+h2 {
+    padding-top: 20%;
+    /* color: white; */
+}
+
+.guides {
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+  font-size: 50px;
+}
+
+.contactHead {
+   margin: auto;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+  font-size: 50px;
+}
+
+form {
+    box-sizing: border-box;
+    background-color: #45a29e;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10%;
+    max-width: 800px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: solid 1px #1f2833;
+    box-shadow: 5px 8px 8px 10px #ccc8c8;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px 2px;
+    margin: 10px;
+    margin-right: 5%;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+  background: #22253e;
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+  font-family: 'Rajdhani', sans-serif;
+  height: 40px;
+  width: 40%;
+  line-height: 40px;
+  margin: 5% 30%;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  }
+
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
