@@ -15,16 +15,16 @@ function Home() {
                 </figure>
             </div>
           <div className="maininfo">
-            <div className="hometext">
+            <div className="q">
               <h2>At JLX Training we believe in getting stronger both physically and mentally through exercise.</h2>
             </div>
-            <div>
+            <div className="pic">
               <img className="homepic" src={"./photos/homepic.jpg"} alt="quote1"/>
             </div>
-            <div>
+            <div className="q">
               <img className="homepic" src={"./photos/homepic2.jpg"} alt="quote2"/>
             </div>
-            <div className="hometext">
+            <div className="pic">
               <h2>There are plenty of workout guides out there but there are few that will focus on your overall health and that is what makes us stand out.</h2>
             </div>
           </div>
