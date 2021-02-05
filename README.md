@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Website link
+[JLX Training](https://mystifying-edison-4b5232.netlify.app/)
 ## Available Scripts
 
 In the project directory, you can run:
